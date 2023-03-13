@@ -1,0 +1,253 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
+header {
+
+    background-image: url("images/pexels-junior-teixeira-2047905.jpg");
+    text-align: center;
+}
+
+.statement {
+    border: 4px double #fff;
+    padding: 2px;
+    color: #fff;
+
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 10%; 
+    width: 95px;
+
+}
+
+.sec_1 {
+
+    position: sticky;
+    top: 1rem;
+    background-color: rgba(0, 0, 10, 0.65);
+    backdrop-filter: 8px;
+
+}
+
+.houseList {
+    padding: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+   
+  }
+
+  .list a {
+    color: #00dffcf9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20%;
+    box-shadow: 7px 7px 7px;
+  }
+
+  .me {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+    gap: 12px;
+  }
+
+  
+
+  .about_me, .skills {
+    color: #00dffcf9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20%;
+    box-shadow: 7px 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    text-align: justify;
+  }
+
+  
+
+  .expertice {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+    gap: 12px;
+  }
+
+  .qualifications, .experience {
+    color: #00dffcf9;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20%;
+    box-shadow: 7px 7px 7px;
+    text-align: center;
+    text-align: justify;
+
+
+  }
+
+.contact-center {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+    gap: 12px;
+}
+
+
+.linkedin {
+    font-weight: bold; 
+    text-decoration: none;
+    color: lime;
+}
+.c_space {
+    font-weight: bold; 
+    text-decoration: none;
+    color: lime;
+}
+
+.contacts {
+    color: #00dffcf9;
+    
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20%;
+    box-shadow: 7px 7px 7px;
+    text-align: center;
+}
+
+.con_h2 {
+    padding: 10px;
+}
+
+
+/* RESUME 7 CSS CODE*/
+
+
+
+.form_container {
+    color: #00fcd2f4;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10%;
+    box-shadow: 7px 7px 7px;
+    text-align: center;
+    
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+    margin: 6px;
+    color: #00bdfcf9;
+    font-weight: bold;
+
+}
+
+.message {
+    width: 90%;
+    height: 7.5em;
+}
+
+.input_form {
+    color: #00bdfcf9;
+    width: 80%;
+    height: 30px;
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+
+}
+
+#submit {
+    margin-top: 10px;
+    width: 91%;
+    height: 40px;
+    font-weight: bolder;
+    color: navy;
+    font-weight: bolder;
+    background-color: #00bdfcf9;
+    border-radius: 11px;
+    
+}
+
+.h2_form {
+    text-align: center;
+    color: #00bdfcf9;
+}
+
+form {
+    margin-left: 30px;
+}
+
+select {
+    background-color: #00bdfcf9;
+    color: #1C045D;
+    border-radius: 5px; 
+    font-size: 14px; 
+    padding: 5px; 
+    width: 170px;
+}
+
+.message {
+    color: #00bdfcf9;
+    background-color: rgba(0, 0, 10, 0.05);
+    backdrop-filter: 8px;
+    box-shadow: 7px 7px 7px;
+    text-decoration: #00bdfcf9;
+
+}
+
+.select_sub {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .statement {
+        font-size: medium; 
+    }
+    .houseList {
+        padding: 10px;
+    }
+    .me, .expertice, .contact-center {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills, .qualifications {
+        font-size: 17px;
+    }
+    .experience {
+        font-size: 15px;
+    }
+
+}
